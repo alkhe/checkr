@@ -1,7 +1,7 @@
 {
 	"name": "checkr",
 
-	"version": "v0.0.1",
+	"version": "v0.0.2",
 
 	"description": "A lightweight and secure checksum validator for passwords and other sensitive data.",
 
@@ -34,6 +34,10 @@
 		"type": "git",
 		"url": "https://github.com/root---/checkr.git"
 	},
+
+	"dependencies": [
+		"checksum"
+	],
 
 	"bundledDependencies": [
 		"checksum"
