@@ -14,7 +14,7 @@
 		"login",
 		"sensitive",
 		"data"
-		],
+	],
 
 	"license": "BSD-3-Clause",
 
@@ -22,14 +22,21 @@
 		"name": "Raphael Mu",
 		"email": "encryptedredux@gmail.com",
 		"url": "http://www.systemic.io/"
-		},
+	},
 
 	"files": [
 		"checkr.js"
-		],
-	
+	],
 
+	"main": "checkr",
 
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/root---/checkr.git"
+	},
 
+	"bundledDependencies": [
+		"checksum"
+	]
 }
 
