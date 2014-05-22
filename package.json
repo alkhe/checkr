@@ -1,0 +1,35 @@
+{
+	"name": "checkr",
+
+	"version": "v0.0.1",
+
+	"description": "A lightweight and secure checksum validator for passwords and other sensitive data.",
+
+	"keywords": [
+		"checksum",
+		"password",
+		"validate",
+		"hash",
+		"database",
+		"login",
+		"sensitive",
+		"data"
+		],
+
+	"license": "BSD-3-Clause",
+
+	"author": {
+		"name": "Raphael Mu",
+		"email": "encryptedredux@gmail.com",
+		"url": "http://www.systemic.io/"
+		},
+
+	"files": [
+		"checkr.js"
+		],
+	
+
+
+
+}
+
