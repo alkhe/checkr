@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish', 'checkr.js' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose publish [ 'checkr.js' ]
+5 verbose cache add [ 'checkr.js', null ]
+6 verbose cache add name=undefined spec="checkr.js" args=["checkr.js",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'checkr.js',
+7 verbose parsed url   path: 'checkr.js',
+7 verbose parsed url   href: 'checkr.js' }
+8 silly lockFile 9bfda7b0-checkr-js checkr.js
+9 verbose lock checkr.js /root/.npm/9bfda7b0-checkr-js.lock
+10 verbose chmod /root/tmp/npm-2762-rHjlOKb_/1400717515211-0.8696437624748796/tmp.tgz 644
+11 verbose tar unpack /root/tmp/npm-2762-rHjlOKb_/1400717515211-0.8696437624748796/tmp.tgz
+12 silly lockFile d8adacb2-f9c543599tmp-456e75fea689package tar:///root/.npm/tmp_781f9c543599tmp_456e75fea689package
+13 verbose lock tar:///root/.npm/tmp_781f9c543599tmp_456e75fea689package /root/.npm/d8adacb2-f9c543599tmp-456e75fea689package.lock
+14 silly lockFile 1cee25a2-15211-0-8696437624748796-tmp-tgz tar:///root/tmp/npm-2762-rHjlOKb_/1400717515211-0.8696437624748796/tmp.tgz
+15 verbose lock tar:///root/tmp/npm-2762-rHjlOKb_/1400717515211-0.8696437624748796/tmp.tgz /root/.npm/1cee25a2-15211-0-8696437624748796-tmp-tgz.lock
+16 silly gunzTarPerm modes [ '755', '644' ]
+17 error not a package /root/tmp/npm-2762-rHjlOKb_/1400717515211-0.8696437624748796/tmp.tgz
+18 silly lockFile d8adacb2-f9c543599tmp-456e75fea689package tar:///root/.npm/tmp_781f9c543599tmp_456e75fea689package
+19 silly lockFile d8adacb2-f9c543599tmp-456e75fea689package tar:///root/.npm/tmp_781f9c543599tmp_456e75fea689package
+20 silly lockFile 1cee25a2-15211-0-8696437624748796-tmp-tgz tar:///root/tmp/npm-2762-rHjlOKb_/1400717515211-0.8696437624748796/tmp.tgz
+21 silly lockFile 1cee25a2-15211-0-8696437624748796-tmp-tgz tar:///root/tmp/npm-2762-rHjlOKb_/1400717515211-0.8696437624748796/tmp.tgz
+22 silly lockFile 9bfda7b0-checkr-js checkr.js
+23 silly lockFile 9bfda7b0-checkr-js checkr.js
+24 verbose addNamed [ 'checkr.js', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile c39f9eb0-checkr-js checkr.js@
+27 verbose lock checkr.js@ /root/.npm/c39f9eb0-checkr-js.lock
+28 silly addNameRange { name: 'checkr.js', range: '*', hasData: false }
+29 verbose url raw checkr.js
+30 verbose url resolving [ 'https://registry.npmjs.org/', './checkr.js' ]
+31 verbose url resolved https://registry.npmjs.org/checkr.js
+32 info trying registry request attempt 1 at 20:11:55
+33 http GET https://registry.npmjs.org/checkr.js
+34 http 404 https://registry.npmjs.org/checkr.js
+35 verbose headers { date: 'Thu, 22 May 2014 00:11:21 GMT',
+35 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   'cache-control': 'max-age=0',
+35 verbose headers   'content-length': '52',
+35 verbose headers   'accept-ranges': 'bytes',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   age: '0',
+35 verbose headers   'x-served-by': 'cache-v42-ASH',
+35 verbose headers   'x-cache': 'MISS',
+35 verbose headers   'x-cache-hits': '0',
+35 verbose headers   'x-timer': 'S1400717481.891195774,VS0,VE16',
+35 verbose headers   'keep-alive': 'timeout=10, max=50',
+35 verbose headers   connection: 'Keep-Alive' }
+36 silly registry.get cb [ 404,
+36 silly registry.get   { date: 'Thu, 22 May 2014 00:11:21 GMT',
+36 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+36 silly registry.get     'content-type': 'application/json',
+36 silly registry.get     'cache-control': 'max-age=0',
+36 silly registry.get     'content-length': '52',
+36 silly registry.get     'accept-ranges': 'bytes',
+36 silly registry.get     via: '1.1 varnish',
+36 silly registry.get     age: '0',
+36 silly registry.get     'x-served-by': 'cache-v42-ASH',
+36 silly registry.get     'x-cache': 'MISS',
+36 silly registry.get     'x-cache-hits': '0',
+36 silly registry.get     'x-timer': 'S1400717481.891195774,VS0,VE16',
+36 silly registry.get     'keep-alive': 'timeout=10, max=50',
+36 silly registry.get     connection: 'Keep-Alive' } ]
+37 silly lockFile c39f9eb0-checkr-js checkr.js@
+38 silly lockFile c39f9eb0-checkr-js checkr.js@
+39 error 404 404 Not Found: checkr.js
+39 error 404
+39 error 404 'checkr.js' is not in the npm registry.
+39 error 404 You should bug the author to publish it
+39 error 404
+39 error 404 Maybe try 'npm search checkr'
+39 error 404
+39 error 404 Note that you can also install from a
+39 error 404 tarball, folder, or http url, or git url.
+40 error System Linux 3.14.4-1-ARCH
+41 error command "/usr/bin/node" "/usr/bin/npm" "publish" "checkr.js"
+42 error cwd /home/xeno/Documents/projects/checkr
+43 error node -v v0.10.28
+44 error npm -v 1.4.9
+45 error code E404
+46 verbose exit [ 1, true ]
