@@ -1,7 +1,7 @@
 {
 	"name": "checkr",
 
-	"version": "v0.1.0",
+	"version": "v0.1.1",
 
 	"description": "A lightweight and secure checksum validator for passwords and other sensitive data.",
 
