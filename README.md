@@ -54,33 +54,33 @@ During benchmarking, checkr was shown to slow down greatly if the module itself 
 ##Speedtest
 
 True Cases  
-1 Million Comprehensive Checks - Cached:	0 s, 317.673 ms  
-1 Million Standard Checks - Cached:		0 s, 92.298 ms  
-1 Million Basic Checks - Cached:		0 s, 50.342 ms  
+1 Million Comprehensive Checks - Cached:	0 s, 314.317 ms  
+1 Million Standard Checks - Cached:		0 s, 86.000 ms  
+1 Million Basic Checks - Cached:		0 s, 48.131 ms  
 
 
-1 Thousand Comprehensive Checks - Cached:	0 s, 0.349 ms  
+1 Thousand Comprehensive Checks - Cached:	0 s, 0.342 ms  
 1 Thousand Standard Checks - Cached:		0 s, 0.094 ms  
-1 Thousand Basic Checks - Cached:		0 s, 0.057 ms  
+1 Thousand Basic Checks - Cached:		0 s, 0.056 ms  
 
 
-1 Thousand Comprehensive Checks - Evaluated:	0 s, 210.256 ms  
-1 Thousand Standard Checks - Evaluated:		0 s, 67.302 ms  
-1 Thousand Basic Checks - Evaluated:		0 s, 14.944 ms  
+1 Thousand Comprehensive Checks - Evaluated:	0 s, 210.983 ms  
+1 Thousand Standard Checks - Evaluated:		0 s, 67.534 ms  
+1 Thousand Basic Checks - Evaluated:		0 s, 15.228 ms  
 
 
 False Cases  
-1 Million Comprehensive Checks - Cached:	0 s, 52.307 ms  
-1 Million Standard Checks - Cached:		0 s, 51.685 ms  
-1 Million Basic Checks - Cached:		0 s, 53.365 ms  
+1 Million Comprehensive Checks - Cached:	0 s, 52.174 ms  
+1 Million Standard Checks - Cached:		0 s, 51.852 ms  
+1 Million Basic Checks - Cached:		0 s, 51.580 ms  
 
 
 1 Thousand Comprehensive Checks - Cached:	0 s, 0.057 ms  
-1 Thousand Standard Checks - Cached:		0 s, 0.056 ms  
-1 Thousand Basic Checks - Cached:		0 s, 0.165 ms  
+1 Thousand Standard Checks - Cached:		0 s, 0.055 ms  
+1 Thousand Basic Checks - Cached:		0 s, 0.181 ms  
 
 
-1 Thousand Comprehensive Checks - Evaluated:	0 s, 195.079 ms  
-1 Thousand Standard Checks - Evaluated:		0 s, 40.091 ms  
-1 Thousand Basic Checks - Evaluated:		0 s, 41.099 ms   
+1 Thousand Comprehensive Checks - Evaluated:	0 s, 195.526 ms  
+1 Thousand Standard Checks - Evaluated:		0 s, 40.295 ms  
+1 Thousand Basic Checks - Evaluated:		0 s, 40.676 ms  
 
